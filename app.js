@@ -1,13 +1,4 @@
-/*
-This app doesn't follow a11y best practices, and the JS file is incomplete.
-
-Complete the getDataFromApi, displaySearchData, and watchSubmit functions.
-
-When you're done, this app should allow a user to search for an artist and song title (both should be required), and display the song lyrics.
-
-You should make requests to this API: https://lyricsovh.docs.apiary.io/# .
-
-Also make any necessary adjustments to make this app accessible. */
+/* This app doesn't follow a11y best practices, and the JS file is incomplete. Complete the getDataFromApi and displaySearchData functions. When you're done, this app should allow a user to search for a specific dog breed, and display a random image of that dog breed. You should make requests to this API: https://dog.ceo/dog-api/ . Also make any necessary adjustments to make this app accessible. */
 
 
 

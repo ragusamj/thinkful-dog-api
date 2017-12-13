@@ -1,8 +1,8 @@
-# Song Lyrics API solution
+# Song Dogs API solution
 
 for the Dogs API white-board challenge (https://repl.it/@thinkful/dog-API-eval-question)
 
-### Live preview: https://mariusbanea.github.io/thinkful-song-lyrics-api
+### Live preview: https://mariusbanea.github.io/thinkful-dog-api/.
 
 # FAQs
 
