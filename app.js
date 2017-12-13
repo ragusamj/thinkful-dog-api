@@ -45,10 +45,10 @@ function displaySearchData(data) {
         alert("No results");
     }
 
-    //
+    //Step 3c - if there are results
     else {
 
-        //Step 3c - if there are results, create an HTML results variable
+        //create an HTML results variable
         let htmlOutput = "";
         $.each(data.message, function (dataKey, dataValue) {
             htmlOutput += "<li>";
@@ -56,7 +56,7 @@ function displaySearchData(data) {
             htmlOutput += "</li>";
         });
 
-        //Step 3e - send the content of HTML results variable to the HTML - display them in the html page (use "<pre><code>" to auto format the lyrics mode details here https: //www.w3schools.com/tags/tag_code.asp and here https://www.w3schools.com/tags/tag_pre.asp )
+        //Step 3e - send the content of HTML results variable to the HTML - display them in the html page
         $('.js-search-results').html(htmlOutput);
     }
 }
@@ -76,11 +76,11 @@ function watchSubmit() {
 
         //Step 1c - input validation - validate input
         if (queryTarget == '') {
-            alert("Please select an artist");
+            alert("Please select a breed");
         }
 
 
-        //Step 1d - use the api function - use that artist and title values to call the getResults function defined at the top
+        //Step 1d - use the api function - use that input values to call the getResults function defined at the top
         getDataFromApi(queryTarget);
     });
 }
