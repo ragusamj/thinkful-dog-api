@@ -26,7 +26,7 @@ for the Dogs API white-board challenge (https://repl.it/@thinkful/dog-API-eval-q
 * - Step 3a - console.log the results
 * - Step 3b - if there are no results show errors
 * - Step 3c - if there are results, create an HTML results variable
-* - Step 3d - if there is more than one restul, use a for loop (or .each) to populate the empty HTML results variable
+* - Step 3d - if there is more than one result, use a for loop (or .each) to populate the empty HTML results variable
 * - Step 3e - send the content of HTML results variable to the HTML ($("class or id name from the HTML").html(HTML results variable))
 
 ## What is AJAX?
@@ -50,6 +50,6 @@ No.
 
 Use event.preventDefault(); (mode details here https://www.w3schools.com/jquery/event_preventdefault.asp)
 
-## How do I make the website accesible?
+## How do I make the website accessible?
 
 Visit https://courses.thinkful.com/web-dev-002v1/project/1.2.2
