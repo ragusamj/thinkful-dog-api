@@ -1,0 +1,18 @@
+body {
+    font-family: Sans-Serif;
+}
+
+.js-search-results {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.js-search-results li {
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.js-search-results li img {
+    width: 100%;
+}
