@@ -1,4 +1,4 @@
-# Song Dogs API solution
+# Dogs API solution
 
 for the Dogs API white-board challenge (https://repl.it/@thinkful/dog-API-eval-question)
 
